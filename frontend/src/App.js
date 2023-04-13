@@ -3,6 +3,7 @@ import HomePage from "main/pages/HomePage";
 import AvilaBeachPage from "main/pages/AvilaBeachPage";
 import LosAlamosPage from "main/pages/LosAlamosPage";
 import ArroyoGrandePage from "main/pages/ArroyoGrandePage";
+import BonsallPage from "main/pages/BonsallPage";
 import StocktonPage from "main/pages/StocktonPage";
 import SeattlePage from "main/pages/SeattlePage";
 
@@ -18,6 +19,8 @@ function App() {
         <Route exact path="/towns/AvilaBeach" element={<AvilaBeachPage />} />
         <Route exact path="/towns/LosAlamos" element={<LosAlamosPage />} />
         <Route exact path="/towns/ArroyoGrande" element={<ArroyoGrandePage />} />
+        <Route exact path="/towns/Bonsall" element={<BonsallPage />} />
+
         <Route exact path="/towns/Stockton" element={<StocktonPage />} />
         <Route exact path="/towns/Seattle" element={<SeattlePage />} />
       </Routes>
