@@ -20,6 +20,7 @@ function App() {
         <Route exact path="/towns/LosAlamos" element={<LosAlamosPage />} />
         <Route exact path="/towns/ArroyoGrande" element={<ArroyoGrandePage />} />
         <Route exact path="/towns/Bonsall" element={<BonsallPage />} />
+
         <Route exact path="/towns/Stockton" element={<StocktonPage />} />
         <Route exact path="/towns/Seattle" element={<SeattlePage />} />
       </Routes>
